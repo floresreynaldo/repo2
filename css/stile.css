@@ -1,36 +1,152 @@
 .padre{
-    background-color: brown;
-    padding:100px ;
-    width: 100%;
-    
-}
-.hijo1{
-    background-color: aqua;
-    padding: 100px;
-    
-    
-}
-.hijo2{
-    background-color: yellow;
-    padding: 80px;
-    
-}
-.hijo3{
     background-color: green;
-    padding: 60px;
-    
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
 }
-.hijo4{
+.hijo{
+    background-color: yellow;
+    width: 40%;
+    height: 80%;
+    margin: 10px;
+    margin-top: 40px;
+}
+.spadre1{
+    background-color: brown;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top:40px;
+    left:60px;
+    border-radius: 200px;
+}
+.h1{
     background-color: red;
-    padding: 60px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    left: 90px;
+    border-radius: 80%;
+}
+.h2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -60px;
+    left: 300px;
+    border-radius: 80%;
+}
+.h3{
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    border-radius: 80%;
+}
+.n1{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    border-radius: 80%;
+}
+.n2{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    border-radius: 80%;
+
+}
+.n3{
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    border-radius: 80%;
+}
+.padre1{
+    background-color: blue;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top:40px;
+    left:60px;
+    border-radius: 200px;
+}
+.H1{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: space-around;
     
 }
-.hijo5{
-    background-color: purple;
-    padding: 60px;
+.N1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nn1{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+.H2{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.naris{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+.H3{
+
+    width: 100%;
+    height: 25%;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-.hijo6{
-    background-color: orange;
-    
+.NN1{
+    background-color: red;
+    width: 50%;
+    height: 90px;
+    border-radius: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.nn3{
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+    border-radius: 80%;
 }
